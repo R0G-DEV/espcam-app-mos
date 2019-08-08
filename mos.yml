@@ -1,0 +1,43 @@
+author: R0G-DEV
+description: Using ESPCAM With Mongoose OS
+version: 1.0
+
+libs_version: ${mos.version}
+modules_version: ${mos.version}
+mongoose_os_version: ${mos.version}
+
+config_schema:
+#DEBUG
+  - ["debug.level", 3]
+
+sources:
+  - src
+libs:
+  # common mgos libs
+  - origin: https://github.com/mongoose-os-libs/boards
+  - origin: https://github.com/mongoose-os-libs/ca-bundle
+  - origin: https://github.com/mongoose-os-libs/rpc-uart
+  - origin: https://github.com/mongoose-os-libs/spi
+  - origin: https://github.com/mongoose-os-libs/i2c
+
+  # esp32 Camera lib
+  - origin: https://github.com/R0G-DEV/espcam
+
+build_vars:
+ ESP_IDF_SDKCONFIG_OPTS: "${build_vars.ESP_IDF_SDKCONFIG_OPTS} 
+ CONFIG_BROWNOUT_DET=n 
+ CONFIG_SPIRAM_SUPPORT=y 
+ CONFIG_SPIRAM_IGNORE_NOTFOUND=y 
+ CONFIG_WIFI_LWIP_ALLOCATION_FROM_SPIRAM_FIRST=y 
+ CONFIG_SPIRAM_TYPE_ESPPSRAM64=y 
+ CONFIG_LOG_DEFAULT_LEVEL_DEBUG=y"
+ #CONFIG_FREERTOS_UNICORE=n
+
+tags:
+  - js
+  - c
+  - mobile
+  - example
+  - cloud
+
+manifest_version: 2018-06-12
