@@ -8,6 +8,10 @@ Initializes espcam library https://github.com/R0G-DEV/espcam
     mos build --platform esp32 --local --verbose
     mos flash
     mos console
+    
+## Fail
+    [Aug  9 10:05:09.611] ?[0;31mE (977) camera: gpio_install_isr_service failed (105)?[0m
+    [Aug  9 10:05:09.612] ?[0;31mE (977) camera: Camera init failed with error 0x105?[0m
 
 ## Output
 
