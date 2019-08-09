@@ -296,34 +296,3 @@ Initializes espcam library https://github.com/R0G-DEV/espcam
     [Aug  9 10:05:09.902] I (1347) wifi: Init static rx buffer size: 1600
     [Aug  9 10:05:09.902] I (1347) wifi: Init static rx buffer num: 10
     [Aug  9 10:05:09.903] I (1357) wifi: Init dynamic rx buffer num: 0
-    [Aug  9 10:05:09.903] D (1357) RTC_MODULE: Wi-Fi takes adc2 lock.?[0m
-    [Aug  9 10:05:09.903] D (1367) phy_init: loading PHY init data from application binary?[0m
-    [Aug  9 10:05:09.910] D (1367) nvs: nvs_open_from_partition phy 0?[0m
-    [Aug  9 10:05:09.911] D (1377) phy_init: esp_phy_load_cal_data_from_nvs: failed to open NVS namespace (0x1102)?[0m
-    [Aug  9 10:05:09.911] ?[0;33mW (1387) phy_init: failed to load RF calibration data (0x1102), falling back to full calibration?[0m
-    [Aug  9 10:05:10.061] ?[0;32mI (1547) phy: phy_version: 4008, 544f89f, Jan 24 2019, 14:54:06, 0, 2?[0m
-    [Aug  9 10:05:10.061] D (1547) nvs: nvs_open_from_partition phy 1?[0m
-    [Aug  9 10:05:10.061] D (1557) nvs: nvs_set_blob cal_data 1904?[0m
-    [Aug  9 10:05:10.129] D (1567) nvs: nvs_set_blob cal_mac 6?[0m
-    [Aug  9 10:05:10.129] D (1567) nvs: nvs_set cal_version 4 4008?[0m
-    [Aug  9 10:05:10.129] D (1567) nvs: nvs_close 3?[0m
-    [Aug  9 10:05:10.130] I (1577) wifi: mode : softAP (cc:50:e3:96:54:e9)
-    [Aug  9 10:05:10.130] I (1577) wifi: Total power save buffer number: 8
-    [Aug  9 10:05:10.131] I (1587) wifi: Init max length of beacon: 752/752
-    [Aug  9 10:05:10.132] I (1587) wifi: Init max length of beacon: 752/752
-    [Aug  9 10:05:10.132] D (1597) event: SYSTEM_EVENT_AP_START?[0m
-    [Aug  9 10:05:10.132] esp32_wifi.c:168        WiFi PS 1 -> 0
-    [Aug  9 10:05:10.133] I (1597) wifi: Set ps type: 0
-    [Aug  9 10:05:10.133]
-    [Aug  9 10:05:10.134] esp32_wifi.c:442        WiFi AP: SSID Mongoose_9654E8, channel 6
-    [Aug  9 10:05:10.135] D (1617) tcpip_adapter: dhcp server start:(ip: 192.168.4.1, mask: 255.255.255.0, gw: 192.168.4.1)?[0m
-    [Aug  9 10:05:10.135] D (1617) tcpip_adapter: dhcp server stop successfully?[0m
-    [Aug  9 10:05:11.218] I (2657) wifi: Total power save buffer number: 8
-    [Aug  9 10:05:11.218] D (2657) event: SYSTEM_EVENT_AP_STOP?[0m
-    [Aug  9 10:05:11.219] D (2667) tcpip_adapter: dhcp server start successfully?[0m
-    [Aug  9 10:05:11.221] esp32_wifi.c:492        WiFi AP IP: 192.168.4.1/255.255.255.0 gw 192.168.4.1, DHCP range 192.168.4.2 - 192.168.4.100
-    [Aug  9 10:05:11.222] esp32_wifi.c:497        WiFi AP: SSID Mongoose_9654E8, channel 6
-    [Aug  9 10:05:11.223] D (2687) event: SYSTEM_EVENT_AP_START?[0m
-    [Aug  9 10:05:11.224] D (2697) tcpip_adapter: dhcp server start:(ip: 192.168.4.1, mask: 255.255.255.0, gw: 192.168.4.1)?[0m
-    [Aug  9 10:05:11.226] mgos_init.c:36          Init done, RAM: 4514728 total, 4362104 free, 4305808 min free
-    [Aug  9 10:05:11.227] mgos_event.c:135        ev MOS0 triggered 0 handlers
